@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="EasyPunish">
+    <output-path>$PROJECT_DIR$/../../Documents/Minecraft Servers/Test/plugins</output-path>
+    <root id="archive" name="EasyPunish.jar">
+      <element id="module-output" name="EasyPunish" />
+    </root>
+  </artifact>
+</component>

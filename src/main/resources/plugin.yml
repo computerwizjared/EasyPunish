@@ -1,0 +1,26 @@
+name: ${project.artifactId}
+main: ${project.groupId}.${project.artifactId}.${project.artifactId}
+version: ${project.version}
+author: computerwizjared
+depend: [Vault]
+commands:
+  punish:
+    description: Punish a player
+    permission: ${project.artifactId}.Punish
+    usage: "\u00a7cUsage: /punish [Offending Player] [Offense]"
+  unpunish:
+    description: UnPunish a player
+    permission: ${project.artifactId}.UnPunish
+    usage: "\u00a7cUsage: /unpunish [Offending Player] [Offense]"
+  punishreload:
+    description: Reload configuration
+    permission: ${project.artifactId}.Reload
+    usage: "\u00a7cUsage: /punishreload"
+  punishlist:
+    description: List current punishments
+    permission: ${project.artifactId}.List
+    usage: "\u00a7cUsage: /punishlist"
+  punishcmds:
+    description: List punishment commands and possible punishments
+    permission: ${project.artifactId}.Commands
+    usage: "\u00a7cUsage: /punishcmds"

@@ -1,0 +1,14 @@
+# Offense names MUST be lowercase!
+# Do not put a '/' in front of the command!
+# Expire Time is in MINUTES!
+# Command sender can be 'sender' to run the command as the player who ran /punish, or 'console' to run the command as console.
+# If you would like more than one command to be ran per punishment, separate them with two vertical bars e.g.
+#    - ban %p Reason||banip %p Reason
+Offenses:
+  cussing:
+    Punishments:
+      - warn %p Cussing is not allowed on this server!
+      - kick %p Cussing is not allowed on this server!
+      - tempban %p 1d Cussing after being warned
+    ExpireTime: 60
+CommandSender: sender
